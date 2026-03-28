@@ -66,7 +66,7 @@ Jupyter Notebook
   
 ## Limitations & Honest Assessment
 - Spot-check monitoring cannot catch rapid deterioration between readings
-- Comorbidity data was synthetically generated — real clinical data would show stronger correlations
+- Comorbidity data was synthetically generated,real clinical data would show stronger correlations
 - System designed for early detection, not replacement of clinical care
 - High risk patients should be escalated to continuous hospital monitoring
 
