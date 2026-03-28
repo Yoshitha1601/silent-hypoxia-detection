@@ -1,6 +1,14 @@
 # Silent Hypoxia Early Detection System
 AI-based early detection of silent hypoxia in COVID-19 patients using Machine Learning and community screening.
 
+## 🌐 Live Demo
+Run locally:
+```bash
+pip install streamlit pandas scikit-learn matplotlib seaborn
+streamlit run app.py
+```
+Enter your vitals → Get instant risk assessment
+
 ## Key Finding
 Standard oxygen checks alone miss 13.4% of high-risk patients — people who feel completely fine but are silently deteriorating.This system caught them by combining vitals, comorbidities and symptoms.
 
