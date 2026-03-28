@@ -59,9 +59,19 @@ Python, Pandas, Scikit-learn, Matplotlib, Seaborn,
 Jupyter Notebook
 
 ## Clinical Significance
-- 1 in 8 at-risk patients would be missed without 
-  full screening
-- System combines ML predictions with clinical 
-  rule-based scoring
+- 1 in 8 at-risk patients would be missed without full screening
+- System combines ML predictions with clinical rule-based scoring
 - Designed for both hospital and community deployment
 - Accessible screening using just a Rs.500 pulse oximeter
+  
+## Limitations & Honest Assessment
+- Spot-check monitoring cannot catch rapid deterioration between readings
+- Comorbidity data was synthetically generated — real clinical data would show stronger correlations
+- System designed for early detection, not replacement of clinical care
+- High risk patients should be escalated to continuous hospital monitoring
+
+## Mitigation Strategy
+- Risk-adaptive check intervals (high risk = more frequent)
+- Symptom education between readings
+- Caregiver alert system for vulnerable patients
+- Clear escalation pathway to emergency care
